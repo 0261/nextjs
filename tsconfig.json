@@ -16,6 +16,8 @@
       "strict": true,
       "target": "esnext",
       "baseUrl": ".",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
       "paths": {
         "@components/*": ["./components/*"],
         // "@layouts/*": ["./layouts/*"],
