@@ -23,6 +23,7 @@
         "@components/*": ["./components/*"],
         // "@layouts/*": ["./layouts/*"],
         "@pages/*": ["./pages/*"],
+        "@src/*": ["./src/*"],
         // "@locale": ["./locale"],
         // "@router": ["./router"],
         // "@router/*": ["./router/*"],

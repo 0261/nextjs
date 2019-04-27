@@ -2,7 +2,7 @@ import { MuiThemeProviderProps } from '@material-ui/core/styles/MuiThemeProvider
 import Document, { AnyPageProps, Head, Main, NextScript, PageProps } from 'next/document';
 import React, { ComponentType } from 'react';
 import flush from 'styled-jsx/server';
-import { PageContext } from '../src/getPageContext';
+import { PageContext } from '@src/getPageContext';
 
 class MyDocument extends Document<{
   pageContext: MuiThemeProviderProps;

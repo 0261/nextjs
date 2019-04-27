@@ -8,6 +8,7 @@ module.exports = withTypescript({
         '@components': path.resolve(__dirname, 'components'),
         '@layouts': path.resolve(__dirname, 'layouts'),
         '@pages': path.resolve(__dirname, 'pages'),
+        '@src': path.resolve(__dirname, 'src'),
         // '@router': path.resolve(__dirname, 'router')
       }
       return config;
